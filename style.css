@@ -662,6 +662,10 @@ footer{
 		height: 66px;
 	}
 
+	.part a{
+		font-size: 6px;
+	}
+
 	.part .last-line{
 		gap: 8px;
 	}
