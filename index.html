@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/455d297363.js" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+	<script>
+		$(function(){
+			$(".conA_mb").on("click", function(){
+				$(".conA_sb").slideToggle("slow");
+			});
+		});
+	</script>
+
+	<section class = "conA">
+		<div class ="navigation">
+			<div class = "container-small">
+				<a href="index.html"><img src = "https://www.pinclipart.com/picdir/big/392-3923270_minitotro-totoro-white-bunny-png-clipart.png" width = "56"></a>
+
+				<button type="menu-button" class ="conA_mb"><i class="fa-solid fa-bars"></i></button>
+			</div>	
+
+			<nav class = "conA_sb">
+				<ul>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="modal.html">DISCOVER & WORK</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="event.html">EVENT</a></li>
+					<li><a href="qna.html">MORE</a></li>	
+				</ul>
+			</nav>
+		</div>
+
+
+		<div class ="video-text">
+			<h1>그대들은 어떻게 살 것인가</h1>
+			<p>2023</p>
+			<a href="#">자세히 보기 <i class="fa-solid fa-caret-right"></i></a>
+		</div>
+
+		<video src="./video.mp4" muted autoplay loop></video>
+	</section>
+
+	<section class = "conB">
+		<div class ="title">최신 뉴스</div>
+
+		<div class = "card-section">
+			<div class ="card"><a href = "#">
+				<img src ="https://www.ghibli.jp/images/poster02.jpg" style="object-fit: cover;">
+				<h2>작품 소개</h2>
+	            <p>[그대들은 어떻게 살 것인가]의 두번째 포스터 개시</p>
+	        </a></div>
+
+	        <div class ="card"><a href = "#">
+				<img src ="https://www.ghibli.jp/images/umi1.jpg" style="object-fit: cover;">
+				<h2>월간 지브리</h2>
+	            <p>2023년 11월호 지브리 소식지 발간</p>
+	        </a></div>
+
+	        <div class ="card"><a href = "#">
+				<img src ="https://www.ghibli.jp/images/info230921.jpg" style="object-fit: cover;">
+				<h2>최신 소식</h2>
+	            <p>일본TV의 지브리 주식 취득</p>
+	        </a></div>
+		</div>
+	</section>
+
+	<section class = "conC">
+		<div class = "title">진행중인 이벤트</div>
+
+		<div class = "card-section">
+			<div class = "main-card">
+				<a href="event.html"><img src = "https://www.ghibli.jp/images/animage9.jpg" height="560px" width="955px" style="object-fit: cover;"></a>
+				<div class ="main-text">
+					<h2>지브리 애니메이션 전시회</h2>
+					<h3>2023.11.23 - 2023.12.28</h3>
+					<p>1978년의 창간 당시부터 80년대의 잡지와 애니메이션에 초점을 맞추었습니다. 애니메이션이라는 말조차 퍼지지 않은 시대부터 애니메이션이 급부상하던 봄. 그러한 과정을 지나 영화 제작까지의 수많은 길을 소개합니다.</p>
+				</div>
+			</div>
+
+			<div class = "scroll-card">
+				<div class = card>
+					<img src = "https://www.ghibli.jp/images/friday_roadshow01.jpg" style="object-fit: cover;">
+					<div class = "text">
+						<h4>로드쇼와 지브리전</h4>
+						<h5>2023.10.07 - 2024.01.28</h5>
+					</div>
+				</div>
+
+				<div class = card>
+					<img src = "https://www.ghibli.jp/images/takahata03.jpg" style="object-fit: cover;">
+					<div class = "text">
+						<h4>타카하타 이사오 감독 전시회</h4>
+						<h5>2023.09.30 - 2023.12.17</h5>
+					</div>
+				</div>
+
+				<div class = card>
+					<img src = "https://www.ghibli.jp/images/ghiblipark-exhibition.jpg" style="object-fit: cover;">
+					<div class = "text">
+						<h4>지브리 파크와 지브리 전시회</h4>
+						<h5>2023.12.23 - 2024.03.31</h5>
+					</div>
+				</div>
+
+				<div class = card>
+					<img src = "https://www.ghibli.jp/images/suzuki27.jpg" style="object-fit: cover;">
+					<div class = "text">
+						<h4>스즈키 토시오와 지브리전</h4>
+						<h5>2023.06.09 - 2023.08.31</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class = "conD">
+		<div class = "title">우리의 작품</div>
+
+		<div class = "card-section">
+			<div class ="card">
+				<a href="modal.html"><img src ="https://www.ghibli.jp/images/red-turtle.jpg"></a>
+				<h2>붉은 거북</h2>
+	            <p>2016</p>
+	        </div>
+
+	        <div class ="card">
+				<a href="modal.html"><img src ="https://www.ghibli.jp/images/aya.jpg"></a>
+				<h2>아야와 마녀</h2>
+	            <p>2020</p>
+	        </div>
+
+	        <div class ="card">
+				<a href="modal.html"><img src ="https://www.ghibli.jp/images/kimitachi.jpg"></a>
+				<h2>그대들은 어떻게 살 것인가</h2>
+	            <p>2023</p>
+	        </div>
+
+	        <div class ="card">
+				<a href="modal.html"><img src ="https://www.ghibli.jp/images/nausicaa.jpg"></a>
+				<h2>바람계곡의 나우시카</h2>
+	            <p>1984</p>
+	        </div>
+
+	        <div class ="card">
+				<a href="modal.html"><img src ="https://www.ghibli.jp/images/laputa.jpg"></a>
+				<h2>천공의 섬 라퓨타</h2>
+	            <p>1986</p>
+	        </div>
+		</div>
+	</section>
+
+	<footer>
+		<div class = "part">
+			<img src = "https://www.ghibli.jp/img/totoro.png">
+		</div>
+		<div class = "part">
+			<ul>
+				<li><a href="#">ABOUT STUDIO GHIBLI</a></li>
+				<li><a href="#">HELP/QNA</a></li>
+				<li><a href="#">SHOP</a></li>
+			</ul>
+		</div>
+		<div class = "part">
+			<ul>
+				<li><a href="#">FOLLOW STUDIO GHIBLI</a></li>
+				<li>
+					<ul class = "icon">
+					<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li> 
+					<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li></ul>
+				</li>
+				<li>
+					<ul class = "last-line">
+						<li><a href="#">© 2005-2023 STUDIO GHIBLI Inc.</a></li>
+						<li><a href="#">이용 조건</a></li>
+						<li><a href="#">RSS 피드</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
