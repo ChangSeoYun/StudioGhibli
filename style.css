@@ -640,6 +640,33 @@ footer{
 	gap: 20px;
 }
 
+@media(max-width: 768px){
+	footer{
+		display: flex;
+		height: 120px;
+		margin-top: 32px;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #47738B;
+		background-size: cover;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-left: auto;
+	    	margin-right: auto;
+	}
+
+	.part img{
+		width: 100px;
+		height: 66px;
+	}
+
+	.part .last-line{
+		gap: 8px;
+	}
+}
+
 /*일반 네비바*/
 .all-navi{
 	text-align: center;
